@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div:hover{
+            color: blue;
+        }
+
+        div > a{
+            display: none;
+        }
+
+        div:hover > a{
+            display: block;
+            color: white;
+            background-color: blue;
+            width: 100px;
+        }
+
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse no texto abaixo</p>
+    <div>
+        Passe o mouse nesse texto
+        <a href="https://www.youtube.com/" target="_blank" rel="external">Youtube</a>
+        <a href="https://www.google.com.br/" target="_blank" rel="external">Google</a>
+        <a href="https://translate.google.com/" target="_blank" rel="external">Translate</a>
+        <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="external">Gmail</a>      
+    </div>
+    <p>Fim de exemplo</p>
+</body>
+</html>

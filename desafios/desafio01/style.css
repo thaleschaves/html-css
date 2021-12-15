@@ -1,0 +1,48 @@
+@charset "UTF=8";
+
+body{
+    background-image: linear-gradient( to right, #232123, #115974, #0190c4);
+    text-align: center;
+    margin: 0px;
+}
+main{
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid #d6d6d6b7;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: justify;
+    text-indent: 25px;
+    font: normal 16px Arial, Verdana, serif;
+}
+footer{
+    background-color: #1c232e;
+    height: 150px;
+    padding-top: 15px;
+    border-radius: 5px;
+}
+ul{
+    color: white;
+    text-align: justify;
+    text-indent: -18px;
+    list-style-type: none;
+}
+a{
+    font-weight: bold;
+    text-decoration: none;
+}
+a#you{
+    color: rgb(201, 25, 25);
+}
+a#insta{
+    color: rgb(206, 36, 206);
+}
+a#face{
+    color: rgb(44, 44, 230);
+}

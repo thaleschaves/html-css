@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos de caixa</title>
+    <style>
+        body{
+            margin-left: 58px;
+        }
+
+        h1{
+            background-color: violet;
+            
+            width: 100%;
+            text-align: center;
+            /*
+                BORDER: width style color;
+            */
+            border: 2px solid #ac28acb4;
+            /*
+                MARGIN: top right bottom left;
+                    (se todas propriedades forem iguais, basta escrever uma vez)
+                    (se o top e o bottom forem iguais e o right e o left tambem forem iguais, basta escrever duas vezes top/bottom & right/left)
+                MARGIN: auto; centraliza
+            */
+            margin-bottom: 5px;
+            /*
+                PADDING: top right bottom left;
+                    (se todas propriedades forem iguais, basta escrever uma vez)
+                    (se o top e o bottom forem iguais e o right e o left tambem forem iguais, basta escrever duas vezes top/bottom & right/left)
+            */
+            padding-top: 134px;
+            padding-bottom: 134px;
+            /*
+                OUTLINE: width style color;
+            */
+        }
+
+        a{
+            border: 1px solid tomato;
+        }
+
+        p{
+            background-color: rgb(192, 192, 192);
+            height: 500px;
+            width: 350px;
+            border: 1px dotted tomato;
+            margin-top: 0px;
+            padding: 8px;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>
+        Parágrafos tambem são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.
+    </p>
+</body>
+</html>

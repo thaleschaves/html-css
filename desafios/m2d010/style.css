@@ -1,0 +1,130 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "idroid";
+    src: url(fontes/idroid.otf);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84e1ad;
+    margin: 0px;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #3CD782, #175231);
+    height: 152px;
+    margin: 0px;
+    box-shadow: 3px 3px 6px #00000079;
+}
+
+header > h1{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+header > p{
+    color: #7fd1a2;
+    text-align: center;
+}
+
+nav{
+    background-color: #175231;
+    padding-bottom: 7px;
+}
+
+nav > a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+nav > a:hover{
+    background-color: #3cd7823d;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+main{
+    background-color: white;
+    width: 800px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 3px 3px 10px #0000003f;
+}
+
+main > h1{
+    font-family: "idroid", Helvetica, sans-serif;
+    color: #175231;
+}
+
+main > h2{
+    background-image: linear-gradient(to right, #17834659, #ffffff59);
+    font-family: "idroid", Helvetica, sans-serif;
+    color: #175231;
+    padding-left: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #175231;
+    font-weight: bold;
+}
+
+p{
+    text-align: justify;
+    text-indent: 25px;
+}
+
+#center{
+    padding-left: 25%;
+}
+
+iframe{
+    width: 800px;
+    height: 450px;
+}
+
+div{
+    display: inline-block;
+    width: 370px;
+    margin: 0px;
+}
+
+span{
+    color: white;
+}
+
+section{
+    background-color: #2FA866;
+    padding: 1px;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 3px 2px 9px #00000036;
+}
+
+section > p{
+    color: white;
+    font-weight: bold;
+}
+
+article{
+    background-color: #C5EBD6;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 3px 2px 9px #00000036;
+}
+
+footer{
+    background-color: #1A5C38;
+    color: #7fd1a2;
+    margin-top: 15px;
+    padding: 3px;
+}
+
+footer > p{
+    margin: 0px;
+    text-align: center;
+}
