@@ -13,9 +13,17 @@
             width: 400px;
             border-collapse: collapse;
         }
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 5px;
+        }
         thead, tfoot{
             background-color: gray;
             color: #fff;
+        }
+        tbody > tr:nth-child(even){
+            background-color: lightgray;
         }
         td, th{
             border: solid black 1px;
@@ -29,10 +37,11 @@
 <body>
     <h1>Tabelas Grandes</h1>
     <table>
+        <caption>população das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estados</th>
-                <th>População</th>
+                <th scope="col">Estados</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
         <tbody>
@@ -56,11 +65,23 @@
                 <td>Paraná</td>
                 <td class="num">11 597 484</td>
             </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11 466 630</td>
+            </tr>
+            <tr>
+                <td>Pernanbuco</td>
+                <td class="num">9 674 793</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">9 240 580</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
-                <td><strong>112.107.172</strong></td>
+                <th scope="row">Total de habitantes</th>
+                <td><strong>142.489.175</strong></td>
             </tr>
         </tfoot>
     </table>
